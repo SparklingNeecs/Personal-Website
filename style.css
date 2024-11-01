@@ -1,0 +1,51 @@
+/*background muna*/
+body {
+  background-image: linear-gradient(#FDCEDF, #F9F5F6);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+width: 100%; /* Extend the navigation bar */
+background-color: #d38888;
+}
+
+li {
+display: inline; /* Remove float to align horizontally */
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 20px 20px;
+text-decoration: none;
+float: right;  /* Move the items to the left */
+}
+
+/* Hover effect */
+li a:hover {
+background-color: #304463;
+}
+
+
+.hover-effect:hover {
+  background-color: lavender;  /* Background color when hovered */
+  color: purple;               /* Text color when hovered */
+  padding: 20px 20px;          /* Increase padding to give a button look */
+  display: inline-block;
+  border-radius: 50px;         /* Rounded corners */
+  transition: 0.5s;            /* Smooth transition */
+}
+
+..hover-effect {
+  color: black;  /* Normal text color */
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
